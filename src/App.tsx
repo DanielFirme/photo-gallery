@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import * as C from './App.styles';
+import Page from './components/Page';
 import { MainRouters } from './routers/MainRouters';
 
 const App = ()=>{
   return (
     <C.Container>
+      <Page/>
       <C.Header>
         <Link to="/albums" style={{textDecoration: "none"}}>
             <C.LogoWrapper>
